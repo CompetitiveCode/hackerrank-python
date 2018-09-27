@@ -14,3 +14,16 @@ for i in range(m):
         if(int(a[1]) in s):
             s.remove(int(a[1]))
 print(sum(s))
+
+"""
+>>> s = set([1, 2, 3, 4, 5, 6, 7, 8, 9])
+>>> s.remove(5)
+>>> print s
+set([1, 2, 3, 4, 6, 7, 8, 9])
+>>> print s.remove(4)
+None
+>>> print s
+set([1, 2, 3, 6, 7, 8, 9])
+>>> s.remove(0)
+KeyError: 0
+"""

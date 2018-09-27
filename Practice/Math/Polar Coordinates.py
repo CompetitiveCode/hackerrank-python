@@ -23,3 +23,21 @@ if(l=='-'):
     t*=-1
 print(abs(complex(k,t)))
 print(cmath.phase(complex(k,t)))
+
+"""
+cmath.phase
+
+This tool returns the phase of complex number z (also known as the argument of z).
+
+>>> phase(complex(-1.0, 0.0))
+3.1415926535897931
+
+
+abs
+
+This tool returns the modulus (absolute value) of complex number z.
+
+>>> abs(complex(-1.0, 0.0))
+1.0
+
+"""
